@@ -20,6 +20,9 @@ The project is broken into separate modules for API, UI testing.
 
 ### Run
 To run UI module, navigate to terminal and run:
-'mvn clean test "-Dcucumber.options=src/test/resources/features --tags @CucumberUiTest"'
+
+`mvn clean test "-Dcucumber.options=src/test/resources/features --tags @CucumberUiTest"`
+
 To run API module, navigate to terminal and run:
-'mvn clean test -Dtest=ApiTests'
+
+`mvn clean test -Dtest=ApiTests`
